@@ -15,21 +15,6 @@ using System.Windows.Forms;
 
 namespace PrinterButton
 {
-    public enum Command { RedOff, RedOn, GreenOff, GreenOn };
-
-    public static class SerialPortExtension
-    {
-        public static void SendCommand(this SerialPort port, Command command)
-        {
-            port.WriteLine(
-                    command == Command.GreenOff ? "A" :
-                    command == Command.GreenOn ? "B" :
-                    command == Command.RedOff ? "C" :
-                    "D"
-            );
-        }
-    }
-
     public partial class PrinterButtonStatus : Form
     {
         PrintDocument document;

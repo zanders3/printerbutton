@@ -12,6 +12,21 @@ using System.Threading;
 
 namespace PrinterButton
 {
+    public enum Command { RedOff, RedOn, GreenOff, GreenOn };
+
+    public static class SerialPortExtension
+    {
+        public static void SendCommand(this SerialPort port, Command command)
+        {
+            port.WriteLine(
+                    command == Command.GreenOff ? "A" :
+                    command == Command.GreenOn ? "B" :
+                    command == Command.RedOff ? "C" :
+                    "D"
+            );
+        }
+    }
+
     class Program
     {
         static string[] headerFiles;
@@ -46,11 +61,19 @@ namespace PrinterButton
 
         static void Document_PrintPage(object sender, PrintPageEventArgs e)
         {
+            Image websiteImage = null;
+            if (File.Exists("website.png"))
+                websiteImage = new Bitmap("website.png");
+
             string selectedFile = headerFiles[random.Next(headerFiles.Length)];
             Image loadedImage = new Bitmap(selectedFile);
             e.Graphics.DrawImage(loadedImage, 0f, 0f);
             if (!Path.GetFileName(selectedFile).StartsWith("footnote"))
+            {
+                if (websiteImage != null)
+                    e.Graphics.DrawImage(websiteImage, 0f, poem.HeaderHeight + poem.WebsiteHeight);
                 return;
+            }
 
             float headerHeight = poem.HeaderHeight;
 
@@ -63,6 +86,8 @@ namespace PrinterButton
                 loadedImage = new Bitmap(selectedFile);
 
             e.Graphics.DrawImage(loadedImage, 0f, headerHeight + poemHeight);
+            if (websiteImage != null)
+                e.Graphics.DrawImage(websiteImage, 0f, headerHeight + poemHeight + poem.WebsiteHeight);
         }
     }
 }

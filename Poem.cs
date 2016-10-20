@@ -40,6 +40,7 @@ namespace PrinterButton
                         ParseConfig(line, "WIDTH", ref PageWidth);
                         ParseConfig(line, "FONTSIZE", ref FontSize);
                         ParseConfig(line, "HEADER", ref HeaderHeight);
+                        ParseConfig(line, "WEBSITE", ref WebsiteHeight);
                         if (line.StartsWith("FONTFAMILY "))
                             FontFamily = line.Substring("FONTFAMILY ".Length);
                         if (line.StartsWith("WORDS") || line.StartsWith("PATTERNS") || line.StartsWith("LINES"))
@@ -88,7 +89,7 @@ namespace PrinterButton
 
         List<List<string>> words = new List<List<string>>();
         List<string> patterns = new List<string>(), lines = new List<string>();
-        public float PageWidth = 120f, HeaderHeight = 10f, FontSize = 10f;
+        public float PageWidth = 120f, HeaderHeight = 10f, FontSize = 10f, WebsiteHeight = 10f;
         public string FontFamily = "Times New Roman";
 
         static string Pick(Random random, List<string> array)
