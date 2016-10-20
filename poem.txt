@@ -1,0 +1,311 @@
+LINES
+2
+3
+3
+3
+3
+4
+4
+4
+5
+5
+6
+10
+13
+
+WORDS concrete nouns 1
+sea
+room
+king
+snake
+star
+balloon
+watchman
+mouth
+window
+square
+nightgown
+ear
+rose
+wall
+night
+moth
+mirror
+wind
+hand
+mother
+cloud
+statue
+museum
+shadow
+echo
+orange
+creature
+whisker
+paw
+hoof
+tail
+wing
+antler
+beak
+bill
+horn
+fur
+quill
+dinosaur
+mammoth
+Tyrannosaurus Rex
+spider
+moth
+bug
+cockroach
+ants
+moth
+bat
+vulture
+owl
+peacock
+toad
+turtle
+worm
+earthworm
+toad
+armadillo
+rat
+squirrel
+hedgehog
+chipmunk
+mouse
+mole 
+platypus
+otter
+calf
+cow
+oxen
+cattle
+sheep
+lamb
+ram
+goat
+pig 
+sow
+fox
+vixen 
+mule
+camel
+songbird
+lark
+nightingale
+wren
+eagle
+hawk
+puppy
+kitten
+chick
+rooster
+hen
+crows
+cat
+kitten
+
+WORDS abstract nouns 2
+love
+courage
+envy
+humour
+wisdomguilt
+melancholy
+beauty
+bravery
+brilliance
+brutality
+calm
+charity
+coldness
+compassion
+confidence
+contentment
+courage
+curiosity
+dedication
+determination
+ego
+elegance
+enthusiasm
+envy
+evil
+fear
+generosity
+goodness
+graciousness
+hatred
+honesty
+honor 
+hope
+humility
+humor
+insanity
+integrity
+intelligence 
+jealousy 
+kindness
+loyalty
+maturity
+patience
+perseverance
+sanity
+self-control
+sensitivity
+sophistication
+stupidity
+sympathy
+talent
+tolerance
+trust
+warmth
+weakness
+wisdom
+wit
+
+WORDS trasative verbs 3
+dance
+sing
+eat
+rejoice
+harvest
+swallow
+pray
+cry
+weep
+sleep
+mingle
+
+WORDS intransitive verbs 4
+cry
+magnify
+stand
+sit
+wake
+flicker
+agree
+appear
+arrive
+become
+belong
+collapse
+consist
+cost
+cough
+cry
+depend
+die
+disappear
+emerge
+exist
+fall
+go
+happen
+have
+hiccup
+inquire
+knock
+laugh
+lie
+live
+look
+last
+occur
+remain
+respond
+result
+revolt
+rise
+sit
+sleep
+smile
+sneeze
+stand
+stay
+swim
+vanish
+vomit
+wake
+wait
+
+WORDS adjectives 5
+dull
+clean
+yellow
+dead
+mute
+flowery
+pink
+fat
+gold
+bald
+new
+naked
+red
+unheard
+
+WORDS adverbs 6
+blankly
+quietly
+serenely
+foolishly
+happily
+cheerily
+reservedly
+
+WORDS pronouns 7
+she
+he
+
+WORDS he she 8
+they
+you
+
+WORDS he she pronouns 9
+on
+under
+above
+below
+
+PATTERNS
+they 4 9 the 1
+the house of 2
+place the 1s 9 their 2
+they 6 3
+'you are 5 and 5' said 7
+that 5 1
+6 3!
+adventures in 2 leave us with 2
+7 6 4s
+why do they 3?
+7 is 5
+a 5 1 9 a 1
+the 1 4s like a 5 1
+4 6 like a 5 1
+2 and 2
+where is the 5 1
+7 looks 9 the 1
+7 is 5
+they 3 6
+7 4s
+together they 4
+together they 6 3
+why do 8 3?
+1s and 1s
+a mask
+a pleasing fit of 2
+harrowed with 2 and 2
+my lady my 1
+let's 4 let's 4
+are you a slave to 2
+when will you realise it's 2?
+can 7 4?
+and 4
+I 4
+I seek 2
+you see this 1? 4!
+can't you see my 2
